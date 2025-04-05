@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <label for=""> Código </label>
+                <input type="number" class="form-control" id="campoCodigo">
+
+                <label for="">  Nome: </label>
+                <input type="text" class="form-control" id="campoNome">
+
+                <label for="">Ano Nascimento: </label>
+                <input type="number" class="form-control" id="campoAno">
+
+                <button class="btn btn-primary mt-3" id="calc">Calcular</button>
+
+                <h1>Nome: <span id="nome"> </span></h1>
+                <h2>Idade: <span id="idade"> </span></h2>
+                <h2>Ano: <span id="ano"> </span></h2>
+                <h2>Saldo: <span id="saldo"> </span></h2>
+                <h2>Codigo: <span id="codigo"> </span></h2>
+
+                <div class="row">
+                    <div class="col-6">
+                        <hr>
+                        <h3> Depositar </h3>
+                        <label for=""> Depósito: </label>
+                        <input type="number" class="form-control" id="campoDeposito">
+                        <button class="btn btn-primary mt-3" id="Deposito">Depositar</button>
+                    </div>
+                    <div class="col-6">
+                        <hr>
+                        <h3> Comprar </h3>
+                        <label for=""> Valor da compra: </label>
+                        <input type="number" class="form-control" id="campoCompra">
+                        <button class="btn btn-primary mt-3" id="Comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="./js/pessoa.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/cliente.js"></script>
+</body>
+</html>
